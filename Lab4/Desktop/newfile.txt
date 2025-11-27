@@ -1,0 +1,10 @@
+messagebus:x:101:101::/nonexistent:/usr/sbin/nologin
+syslog:x:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:x:103:103::/run/uuidd:/usr/sbin/nologin
+landscape:x:104:105::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:990:990:User for polkitd:/:/usr/sbin/nologin
+oir:x:1000:1000:,,,:/home/oir:/bin/bash
+hor:x:1001:1001::/home/hor:/bin/bash
+huy-chanchhinghoir:x:1002:1002:huy_chanchhinghoir,huy_chanchhinghoir,092994789,092994789,no:/home/huy-chanchhinghoir:/bin/bash
+huy_chanchhinghoir:x:1003:1003:huy_chanchhinghoir,1,092994789,092994789,No:/home/huy_chanchhinghoir:/bin/bash

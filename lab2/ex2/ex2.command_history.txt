@@ -1,0 +1,57 @@
+    1  whami
+    2  whoami
+    3  ls
+    4  cd
+    5  pwd
+    6  clear
+    7  pwd
+    8  mkdir lab2
+    9  cd lab2
+   10  mkdir ex1
+   11  cd ex1
+   12  mkdir etc
+   13  cd mkdir etc
+   14  tree lap2
+   15  cd etc
+   16  mkdir /network/interfaces
+   17  mkdir network
+   18  cd network
+   19  mkdir interfaces
+   20  cd interfaces
+   21  ../interfaces
+   22  cd
+   23  tree lap2
+   24  ls -l ~
+   25  tree ~/lap2
+   26  tree ~lab2
+   27  tree ~/lab2
+   28  cd /lab2/ex1/etc
+   29  cd ~/lab2/ex1/etc
+   30  mkdir systemd
+   31  cd systemd
+   32  touch resolved.conf
+   33  mkdir system
+   34  touch system.conf
+   35  mkdir user
+   36  touch user.conf
+   37  cd
+   38  tree ~/lab2
+   39  cd ~/lab2/ex1/etc mkdir udev
+   40  cd ~/lab2/ex1/etc
+   41  mkdir udev
+   42  cd udev
+   43  touch rules.d
+   44  touch udev.conf
+   45  ../etc
+   46  cd ~ ..etc
+   47  cd ..
+   48  mkdir home
+   49  cd home
+   50  mkdir lost+found
+   51  mkdir user
+   52  cd user
+   53  mkdir Documents
+   54  cd
+   55  tree lab2
+   56  history 
+   57  history > ex2.command_history.txt

@@ -1,0 +1,358 @@
+    1  whami
+    2  whoami
+    3  ls
+    4  cd
+    5  pwd
+    6  clear
+    7  tree
+    8  pwd
+    9  cd
+   10  pwd
+   11  ssh gic-huy-chanchhinghoir@192.168.21.87
+   12  clear
+   13  ssh gic-huy-chanchhinghoir@192.168.21.87
+   14  clear
+   15  tree
+   16  pwd
+   17  mkdir Lab3
+   18  cd Lab3
+   19  mkdir CopyFolder
+   20  cd CopyFolder
+   21  touch copied.txt
+   22  mkdir Documents
+   23  cd CopyFolder
+   24  cp copied.txt ../Documents
+   25  tree
+   26  cd
+   27  tree
+   28  cd Lab3
+   29  cd Documents 
+   30  cd
+   31  clear
+   32  cd Lab3
+   33  cd Documents 
+   34  touch {one,two,three,four,five}.txt
+   35  tree
+   36  cd .. 
+   37  mkdir Desktop
+   38  tree
+   39  cd Documents 
+   40  cd ..
+   41  mv CopyingFolder CopyFolder
+   42  mv CopyFolder CopyingFolder
+   43  tree
+   44  cd Documents 
+   45  cp {one,two,three,four,five}.txt ../Desktop
+   46  cd
+   47  tree
+   48  rm {one,two,three,four,five}.txt 
+   49  cd Lab3
+   50  cd desktop
+   51  cd Desktop 
+   52  rm {one,two,three,four,five}.txt 
+   53  tree
+   54  cd .. cd ..
+   55  cd ..
+   56  clear
+   57  tree
+   58  cd CopyingFolder
+   59  cd ..
+   60  cp CopyingFolder ./Desktop
+   61  cp -r CopyingFolder ./Desktop 
+   62  cd Document
+   63  cd Documents
+   64  touch {one,two,three,four,five}_document.txt
+   65  nano {one,two,three,four,five}_document.txt
+   66  cat {one,two,three,four,five}_document.txt
+   67  mv one_document.txt document_un
+   68  mv two_document.txt document_deux.txt
+   69  mv document_un document_un.txt
+   70  mv three_document.txt document_trois.txt 
+   71  mv three_document.txt document_quatre.txt 
+   72  mv four_document.txt document_quatre.txt
+   73  tree
+   74  mv five_document.txt document_cique.txt
+   75  cd ..
+   76  mkdir MoveFolder
+   77  cd Document
+   78  cd Documents
+   79  mv -r document_{un,deux,trois,quatre,cique}.txt ../MoveFolder
+   80  mv --help
+   81  mv document_{un,deux,trois,quatre,cique}.txt ../MoveFolder
+   82  tree
+   83  cd ..
+   84  tree
+   85  cd Desktop 
+   86  clear
+   87  mkdir FrenchFolder
+   88  cd ..
+   89  tree
+   90  mv * MoveFolder ./Desktop/FrenchFolder
+   91  mv * from  MoveFolder ./Desktop/FrenchFolder
+   92  cd MoveFolder
+   93  tree
+   94  cd FrenceFolder
+   95  cd Desktop 
+   96  cd FrenceFolder
+   97  tree
+   98  cd FrenchFolder
+   99  mv CopyingFolder ../Desktop/Lab3
+  100  tree
+  101  mv CopyingFolder ../../Lab3
+  102  mv Documents ../../Lab3
+  103  mv MoveFolder ../../Lab3
+  104  tree
+  105  cd ..
+  106  tree
+  107  cd 
+  108  tree
+  109  cd Lab3
+  110  mv Documents ../Lab3
+  111  clear
+  112  tree
+  113  mv Documents ../
+  114  tree
+  115  mv MoveFolder ../
+  116  cd ..
+  117  rm -r Lab3
+  118  tree
+  119  mv MoveFolder/* FrenchFolder/ 
+  120  mv MoveFolder/* ./Desktop/FrenchFolder 
+  121  tree
+  122  lear
+  123  clear
+  124  tree
+  125  clear
+  126  ls
+  127  mkdir activity_class
+  128  sudo apt install gcc
+  129  sudo apt update
+  130  cd activity_class
+  131  nano syscall.c
+  132  gcc syscall.c -o syscall1
+  133  su - admid_oir
+  134  su -
+  135  su
+  136  su -
+  137  clear
+  138  ls
+  139  cd Lab3
+  140  tree
+  141  cd Desktop/FrenchFolder
+  142  cd
+  143  rm -r Lab3
+  144  tree
+  145  mkdir Lab3
+  146  cd Lab3
+  147  mkdir CopyingFolder
+  148  clear
+  149  touch copied.txt
+  150  mkdir Documents
+  151  tree
+  152  mv copied.txt ./Documents
+  153  tree
+  154  Documents
+  155  cd Documents
+  156  touch{one,two,three,four,five}.txt
+  157  touch {one,two,three,four,five}.txt
+  158  cp -r ../CopyingFolder
+  159  mv {one,two,three,four,five}.txt ../CopyingFolder
+  160  tree
+  161  cd ..
+  162  cd CopyingFolder
+  163  cp -r {one,two,three,four,five}.txt ../Documents 
+  164  cd ..
+  165  mkdir Desktop
+  166  mv -r CopyingFolder ./Desktop
+  167  cp -r CopyingFolder ./Desktop
+  168  cd Documents
+  169  touch {one,two,three,four,five}_document.txt
+  170  nano {one,two,three,four,five}_document.txt
+  171  cat {one,two,three,four,five}_document.txt
+  172  mv one_document.txt document_un.txt
+  173  mv two_document.txt document_deux.txt
+  174  mv three_document.txt document_trois.txt
+  175  mv four_document.txt document_quatre.txt
+  176  mv five_document.txt document_cinque.txt
+  177  tree
+  178  clear
+  179  history
+  180  clear
+  181  tree
+  182  cd Lab3
+  183  clear
+  184  tree
+  185  cd Lab3
+  186  cd Documents
+  187  mv documents_{un,deux,trois,quatre,cinque}.txt ./MoveFolder
+  188  mkdir MoveFolder
+  189  mv documents_{un,deux,trois,quatre,cinque}.txt ./MoveFolder
+  190  ls
+  191  mv document_{un,deux,trois,quatre,cinque}.txt ./MoveFolder
+  192  ls
+  193  tree
+  194  cd ..
+  195  cd Dektop
+  196  cd Desktop
+  197  mkdir FrenchFolder
+  198  cd ..
+  199  cd Documents
+  200  mv MoveFolder ../Desktop/FrenchFolder
+  201  cd ..
+  202  tree
+  203  cd Desktop
+  204  cd FrenchFolder
+  205  cd MoveFolder
+  206  mv document_{un,deux,trois,quatre,cinque}.txt ../FrenchFolder
+  207  mv .txt* ../FrenchFolder
+  208  mv *.txt ../FrenchFolder
+  209  tree
+  210  mv document_{un,deux,trois,quatre,cinque}.txt ../FrenchFolder
+  211  cd ..
+  212  mv MoveFolder ../Desktop
+  213  cd ..
+  214  cd MoveFolder
+  215  tree
+  216  mv *.txt ./FrenchFolder
+  217  cd ..
+  218  tree
+  219  cd Desktop
+  220  mv document_{un,deux,trois,quatre,cinque}.txt ./FrenchFolder
+  221  mv document_un.txt FrenchFolder
+  222  mv document_un.txt ./FrenchFolder
+  223  cd ..
+  224  tree
+  225  cd Desktop
+  226  mv document_un.txt ./FrenchFolder\
+  227  cd Desktop 
+  228  mv Desktop MoveFolder
+  229  cd ..
+  230  mv Desktop MoveFolder
+  231  cd MoveFolder
+  232  mv document_un.txt ./FrenchFolder
+  233  mv document_{deux,trois,quatre,cinque}.txt ./FrenchFolder
+  234  mv document_deux.txt ./FrenchFolder
+  235  mv document_trois.txt ./FrenchFolder
+  236  mv document_quatre.txt ./FrenchFolder
+  237  mv document_cinque.txt ./FrenchFolder
+  238  cd .. 
+  239  mv MoveFolder ../Lab3
+  240  cd ..
+  241  tree
+  242  pwl
+  243  pwd
+  244  ls
+  245  tree
+  246  cd
+  247  tree
+  248  cd LAb3
+  249  cd Lab3 
+  250  cd Lab3
+  251  cat FrenchFolder
+  252  cd ..
+  253  rm Lab3
+  254  rm -r Lab3
+  255  tree
+  256  cd Documents
+  257  touch {one,two,three,four,five}_document.txt
+  258  nano {one,two,three,four,five}_document.txt
+  259  clear
+  260  tree
+  261  cd Lab3/Documents
+  262  mv one_document.txt document_un.txt
+  263  mv two_document.txt document_deux.txt
+  264  mv three_document.txt document_trois.txt
+  265  mv four_document.txt document_quatre.txt
+  266  mv five_document.txt document_cique.txt
+  267  mv document_{un,deux,trois,quatre,cinque}.txt ./MoveFolder
+  268  cd
+  269  cd Lab3
+  270  mkdir MoveFolder
+  271  cd Documents
+  272  mv document_{un,deux,trois,quatre,cinque}.txt ../MoveFolder
+  273  tree
+  274  mv document_cique document_cinque.txt
+  275  tree
+  276  mv document_cique.txt document_cinque.txt
+  277  mv document_cinque.txt ../MoveFolder
+  278  cd ..
+  279  cd Desktop
+  280  mkdir FrenchFolder
+  281  tree
+  282  cd ..
+  283  cd Documents
+  284  mv document_{un,deux,trois,quatre,cinque}.txt ../Desktop/FrenchFolder
+  285  ls
+  286  cd ..
+  287  tree
+  288  cd MoveFolder
+  289  mv document_{un,deux,trois,quatre,cinque}.txt ../Desktop/FrenchFolder
+  290  tree
+  291  cd ..
+  292  cd Desktop/FrenchFolder
+  293  mv document_{un,deux,trois,quatre,cinque}.txt ../MoveFolder
+  294  ls
+  295  mv document_{un,deux,trois,quatre,cinque}.txt ../Desktop
+  296  ls
+  297  mv document_{un,deux,trois,quatre,cinque}.txt ../
+  298  ls
+  299  cd ..
+  300  ls
+  301  mv document_{un,deux,trois,quatre,cinque}.txt ../MoveFolder
+  302  cd ../MoveFolder
+  303  mv *.txt ../Documents/FrenchFolder
+  304  ls
+  305  mv *.txt ../Desktop/FrenchFolder
+  306  cd
+  307  find ~Lab3 > ~Lab3/tree_structure_before_remove.txt
+  308  tree
+  309  find ~/Lab3 > ~/Lab3/tree_structure_before_remove.txt
+  310  ls ~/Lab3 > ~/Lab3/tree_structure_before_remove.txt
+  311  cat ~/Lab3 > ~/Lab3/tree_structure_before_remove.txt
+  312  tree
+  313  cd lab3
+  314  cd Lab3
+  315  cat tree_structure_before_remove.txt
+  316  history > ./tree_structure_before_remove.txt
+  317  cat tree_structure_before_remove.txt
+  318  clear
+  319  tree
+  320  cd Desktop/FrenchFolder
+  321  rm document_deux.txt
+  322  cd ../../Document
+  323  cd ../../
+  324  cd Documentd
+  325  cd Documents
+  326  mkdir EmptyFolder
+  327  cd EmptyFolder
+  328  touch deletefile.txt
+  329  mkdir {DeleteFolder,EmptyFolder}
+  330  ls
+  331  rm {DeleteFolder,EmptyFolder}
+  332  rm -r {DeleteFolder,EmptyFolder}
+  333  ls
+  334  cd ../../Desktop/FrenchFolder
+  335  rm document_{un,deux,trois,quatre,cinque}.txt
+  336  rm -r document_{un,deux,trois,quatre,cinque}.txt
+  337  cat document_{un,deux,trois,quatre,cinque}.txt
+  338  ls
+  339  cd ..
+  340  ls
+  341  tree
+  342  history
+  343  cd 
+  344  cd Lab3
+  345  touch tree_structure_after_remove.txt
+  346  tree > tree_structure_after_remove.txt
+  347  cat tree_structure_after_remove.txt
+  348  truncate -s 0 tree_struture_before-remove.txt
+  349  cat tree_struture_before-remove.txt
+  350  mkdir wildcardex1_command_history.txt
+  351  history > wildcardex1_command_history.txt
+  352  history > ./wildcardex1_command_history.txt
+  353  tree
+  354  rm  wildcardex1_command_history.txt
+  355  rm wildcardex1_command_history.txt
+  356  rm -r wildcardex1_command_history.txt
+  357  touch wildcardex1_command_history.txt
+  358  history > ./wildcardex1_command_history.txt
